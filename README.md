@@ -4,7 +4,7 @@ A lightweight agent that captures AI coding tool usage and sends analytics to [Z
 
 ## Overview
 
-Zaluno Agent runs in the background on your development machine, capturing usage data from AI coding assistants like Claude Code, Cursor, and others. It sends anonymized analytics to Zaluno, giving engineering teams visibility into AI tool adoption and effectiveness.
+Zaluno Agent runs in the background on your development machine, capturing usage data from AI coding assistants like Claude Code, Cursor, and others. It sends session analytics to Zaluno, giving engineering teams visibility into AI tool adoption and effectiveness.
 
 ## Installation
 
@@ -28,7 +28,7 @@ sudo mv zaluno-agent /usr/local/bin/
 
 ### Windows
 
-Download the latest `.exe` from the [Releases](https://github.com/zaluno/agent/releases) page.
+Download the latest release from the [Releases](https://github.com/zaluno/agent/releases) page.
 
 ## Support
 
@@ -38,7 +38,7 @@ Download the latest `.exe` from the [Releases](https://github.com/zaluno/agent/r
 
 ## Data collection, usage, and retention
 
-When you use Zaluno Agent, we collect AI conversation data from tools and apps installed on your computer, including Claude Code, Cursor, and others; and from our browser extension.
+When you use Zaluno Agent, we collect AI conversation data from tools and apps installed on your computer, including Claude Code, Cursor, and others; and from our browser extension, if it's installed.
 
 ### How we use your data
 
