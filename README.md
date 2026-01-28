@@ -30,53 +30,22 @@ sudo mv zaluno-agent /usr/local/bin/
 
 Download the latest `.exe` from the [Releases](https://github.com/zaluno/agent/releases) page.
 
-## Usage
-
-1. Sign in to your Zaluno account at [zaluno.com](https://zaluno.com)
-2. Navigate to Settings > Devices and generate a device token
-3. Run the agent with your token:
-
-```bash
-zaluno-agent --token YOUR_DEVICE_TOKEN
-```
-
-The agent will run in the background and automatically capture AI tool usage.
-
-## Privacy
-
-Zaluno Agent is designed with privacy in mind:
-
-- Raw conversation transcripts are processed locally
-- Only aggregated insights and metadata are sent to Zaluno servers
-- No code snippets or sensitive content leaves your machine
-- You control what data is captured and shared
-
-See our [Privacy Policy](https://zaluno.com/privacy) for more details.
-
-## Configuration
-
-Configuration file location:
-- macOS: `~/.config/zaluno/agent.toml`
-- Linux: `~/.config/zaluno/agent.toml`
-- Windows: `%APPDATA%\zaluno\agent.toml`
-
-Example configuration:
-
-```toml
-[agent]
-token = "your-device-token"
-log_level = "info"
-
-[capture]
-enabled_tools = ["claude-code", "cursor", "chatgpt"]
-```
-
 ## Support
 
 - Documentation: [docs.zaluno.com](https://docs.zaluno.com)
 - Issues: [GitHub Issues](https://github.com/zaluno/agent/issues)
 - Email: support@zaluno.com
 
-## License
+## Data collection, usage, and retention
 
-MIT License - see [LICENSE](LICENSE) for details.
+When you use Zaluno Agent, we collect AI conversation data from tools and apps installed on your computer, including Claude Code, Cursor, and others; and from our browser extension.
+
+### How we use your data
+
+See our [data usage policies](https://docs.zaluno.com/en/data-usage).
+
+### Privacy safeguards
+
+We have implemented several safeguards to protect your data, including limited retention periods for sensitive information, restricted access to user session data, and clear policies against using customer data for model training.
+
+For full details, please review our [Terms of Service](https://zaluno.com/terms) and [Privacy Policy](https://zaluno.com/privacy).
