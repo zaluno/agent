@@ -38,7 +38,7 @@ Download the latest release from the [Releases](https://github.com/zaluno/agent/
 
 ## Data collection, usage, and retention
 
-When you use Zaluno Agent, we collect AI conversation data from tools and apps installed on your computer, including Claude Code, Cursor, and others; and from our browser extension, if it's installed.
+When you use Zaluno Agent, we collect AI conversation data from tools and apps installed on your computer, including Claude Code, Cursor, and others; and from our browser extension, if installed.
 
 ### How we use your data
 
